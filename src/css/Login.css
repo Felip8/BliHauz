@@ -1,0 +1,59 @@
+.container-login {
+  background-color: var(--cor-azul);
+  height: 100vh;
+  width: 400px;
+  margin-left: auto;
+}
+
+.logo-login {
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.logo-blihauz {
+  width: 20vh;
+}
+
+/* -------- Inputs -------- */
+
+.inputs-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-email,
+.input-senha {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.input-email p,
+.input-senha p {
+  width: 80%;
+  text-align: left;
+  margin-bottom: 6px;
+  color: white;
+}
+
+.input-email input,
+.input-senha input {
+  width: 80%;
+  height: 36px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.esqueci-senha {
+  text-align: center;
+}
+
+.esqueci-senha a {
+  text-decoration: none;
+  color: var(--cor-amarela);
+}
