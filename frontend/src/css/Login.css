@@ -57,3 +57,21 @@
   text-decoration: none;
   color: var(--cor-amarela);
 }
+
+.container-botao-login {
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.botao-entrar {
+  width: 20%;
+  height: 40px;
+  background-color: var(--cor-amarela);
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}

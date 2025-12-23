@@ -19,7 +19,9 @@ export default function Login() {
             <input type="password" name="" id="" placeholder="Senha" />
           </div>
         </div>
-
+        <div className="container-botao-login">
+          <button className="botao-entrar">Entrar</button>
+        </div>
         <div className="esqueci-senha">
           <a href="#">Esqueci minha senha</a>
         </div>
